@@ -1,0 +1,173 @@
+*.unselectable {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+html {
+    background-color: #E0E0E2;
+
+}
+
+#navbar {
+    width: 100vw;
+    height: 8vh;
+
+    position: fixed;
+
+    background-color: rgba(8, 65, 92, 0.7);
+    border-bottom-style: solid;
+    border-bottom-color: #FFC857;
+    border-bottom-width: 0.2vw;
+
+    display: flex;
+    flex-direction: row;
+}
+    #nav-left {
+        width: 25%;
+        height: 100%;
+        display: flex;              /* establish flex container */
+        flex-direction: column;     /* stack flex items vertically */
+        justify-content: center;    /* center items vertically, in this case */
+        align-items: center;
+    }
+    .title-button {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.5vw;
+        width: 60%;
+
+        background-color: #FFC857;
+        border: none;
+
+        cursor: pointer;
+        color: #08415C;
+
+        border-radius: 0.5vw;
+        border-bottom-style: solid;
+        border-bottom-width: 0.3vw;
+        border-bottom-color: #cca045;
+
+        -webkit-transition: all 0.3s;
+		/* Safari */
+		transition: all 0.3s;
+    }
+        .title-button:hover {
+            background-color: #FFC857;
+            transform: translateY(0.3vw);
+
+            border-bottom-width: 0;
+        }
+
+#intro {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/180911101104-abu-dhabi-destination-page-only.jpg");
+    background-size: cover;
+
+    text-align: center;
+
+    display: flex;              /* establish flex container */
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;
+}
+    #intro-box {
+        width: 35vw;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+
+        background-color: rgba(8, 65, 92, 0.7);
+        color: white;
+
+        margin: auto;
+
+        border-width: 0.2vw;
+        border-style: solid;
+        border-color: #FFC857;
+
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+    .intro-title {
+        margin: 0;
+        padding: 0;
+        padding-top: 2vw;
+
+        font-family: 'Bitter', serif;
+        font-size: 3.5vw;
+        color: #FFC857;
+    }
+    .intro-pic {
+        margin: 0;
+        padding: 0;
+        border-radius: 50%;
+        width: 45%;
+
+        border-width: 0.2vw;
+        border-style: solid;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        border-color: #FFC857;
+    }
+
+#about {
+    width: 100vw;
+}
+
+.section {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+
+}
+.section-head-div {
+    width: 80vw;
+
+    background-color: rgba(8, 65, 92, 0.7);
+    color: white;
+
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: #FFC857;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+    .section-title {
+        margin: 0;
+        padding: 0.8vw;
+
+        font-family: 'Bitter', serif;
+        font-size: 3.5vw;
+        color: #FFC857;
+    }
+.section-desc {
+    margin-top: 2vh;
+    width: 80vw;
+
+    background-color: rgba(8, 65, 92, 0.7);
+    color: white;
+
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: #FFC857;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+    .about-me-text {
+        padding: 3vw;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 1.25vw;
+        line-height: 2.75vh;
+    }
